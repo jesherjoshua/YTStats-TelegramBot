@@ -1,2 +1,2 @@
 # Learn-git
-learning git demo
+Learning git now!
