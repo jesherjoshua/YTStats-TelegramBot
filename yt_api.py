@@ -11,7 +11,7 @@ from urllib.request import urlopen
 from urllib.parse import urlparse
 
 
-fhand=open('E:/Python Programming/Telegram Bot/yt_api_key.txt')
+fhand=open('yt_api_key.txt')
 key=None
 for i in fhand:
     key=i.strip()
@@ -55,8 +55,7 @@ def get_vid_info(a):
     upload_date=yt.publish_date
     date=upload_date.strftime('%d/%m/%Y')
     return[channel_name,title,length,views,date]
-#print(get_vid_info('https://www.youtube.com/watch?v=YsLqp9jXKW4'))
-#print(dir('jj'))
+
 def get_rating(url):
     vinfo=api.get_video_by_id(video_id=extract.video_id(url))
     j=vinfo.items[0].to_dict()
