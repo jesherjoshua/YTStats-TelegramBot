@@ -5,10 +5,10 @@
 python
 
 ## Package Dependencies
-python-telegram-bot \n
-python-youtube \n
-BeautifulSoup \n
-pytube \n
+python-telegram-bot, 
+python-youtube, 
+BeautifulSoup, 
+pytube
 
 
 ## FYI
