@@ -4,6 +4,13 @@
 
 python
 
+##Package Dependencies
+python-telegram-bot
+python-youtube
+BeautifulSoup
+pytube
+
+
 ## FYI
 
 this is a freetime project, may contain bugs, tread with care.
