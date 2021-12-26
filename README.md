@@ -4,7 +4,7 @@
 
 python
 
-##Package Dependencies
+## Package Dependencies
 python-telegram-bot
 python-youtube
 BeautifulSoup
