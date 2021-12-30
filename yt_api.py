@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # FUNCTIONS MODULE TO GET DATA
 
 import re

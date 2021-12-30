@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # MAIN SCRIPT
 
 import datetime
@@ -64,7 +65,7 @@ def get_video_stats(update, context):
         dateu = str(stats[4])
         nof = str(stats[3])
         nol = str(r[0])
-        nodl = str(r[1])
+        nodl = "Dislikes have been deprecated on Youtube. Only the original creator can view the no.of dislikes."
         noc = str(r[2])
         outs = 'Author Name:\n'+stats[0]+"\n\n"+'Video Title:\n'+stats[1]+"\n\n"+'Video Length:\n'+vlen+"\n\n"+'Date Of Upload:\n'+dateu+"\n\n" + \
             'No.of Views:\n'+nof+"\n\n"+'-------RATINGS---------\n'+'No.of Likes:\n' + \
